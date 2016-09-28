@@ -9,7 +9,7 @@ $(function () {
   $("#title").text(title);
 
   var list = localStorage.getItem("list");
-  list = list ? list: localStorage.setItem("list", "食堂走起 食堂走起 食堂走起 今天减肥 今天减肥 点外卖 咖喱饭 味千拉面 龙虾盖饭 咬不得 甘其食 老娘舅 外婆家 潮虾 牛肉火锅 台湾锅 麻辣烫 肯德基 麦当劳 鲈鱼 烤鱼 伊川寿司 东北水饺 凉皮 必胜客 沙县小吃 小杨生煎 吉火冷面石锅拌饭 刘一手火锅");
+  list = list ? list: localStorage.setItem("list", "食堂走起 食堂走起 食堂走起 今天减肥 今天减肥 便利店盒饭 便利店饭团 便利店寿司 点外卖 咖喱饭 味千拉面 龙虾盖饭 咬不得 甘其食 老娘舅 外婆家 潮虾 牛肉火锅 台湾锅 麻辣烫 肯德基 麦当劳 鲈鱼 烤鱼 伊川寿司 东北水饺 凉皮 必胜客 沙县小吃 小杨生煎 吉火冷面石锅拌饭 刘一手火锅 兰州拉面 泡面 ");
   list = localStorage.getItem("list");
   $("#list").text(list);
 
