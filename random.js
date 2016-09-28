@@ -9,13 +9,13 @@ $(function () {
   $("#title").text(title);
 
   var list = localStorage.getItem("list");
-  list = list ? list: localStorage.setItem("list", "食堂走起 咖喱饭 味千拉面 龙虾盖饭 咬不得 甘其食 老娘舅 外婆家 潮虾 牛肉火锅 台湾锅 麻辣烫 肯德基 麦当劳 鲈鱼 烤鱼 伊川寿司 东北水饺 凉皮 必胜客 沙县小吃 小杨生煎 吉火冷面石锅拌饭 刘一手火锅");
+  list = list ? list: localStorage.setItem("list", "食堂走起 食堂走起 食堂走起 今天减肥 今天减肥 点外卖 咖喱饭 味千拉面 龙虾盖饭 咬不得 甘其食 老娘舅 外婆家 潮虾 牛肉火锅 台湾锅 麻辣烫 肯德基 麦当劳 鲈鱼 烤鱼 伊川寿司 东北水饺 凉皮 必胜客 沙县小吃 小杨生煎 吉火冷面石锅拌饭 刘一手火锅");
   list = localStorage.getItem("list");
   $("#list").text(list);
 
 
   var detail = localStorage.getItem("detail");
-  detail = detail ? detail: localStorage.setItem("detail", "一路琼浆 翻将倒嗨 一味深长 ");
+  detail = detail ? detail: localStorage.setItem("detail", "午饭选择困难户们的必备利器");
   detail = localStorage.getItem("detail");
   $("#detail").text(detail);
 
