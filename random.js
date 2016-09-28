@@ -3,8 +3,13 @@ $(function () {
       heading = $("h1"),
       timer;
 
+  var title = localStorage.getItem("title");
+  title = title ? title: localStorage.setItem("title", "中午我要吃");
+  title = localStorage.getItem("title");
+  $("#title").text(title);
+
   var list = localStorage.getItem("list");
-  list = list ? list: localStorage.setItem("list", "可乐 雪碧 王老吉 加多宝 红牛 醋 酱油 芥末 苦瓜水 墨鱼汁 白开水");
+  list = list ? list: localStorage.setItem("list", "食堂走起 咖喱饭 味千拉面 龙虾盖饭 咬不得 甘其食 老娘舅 外婆家 潮虾 牛肉火锅 台湾锅 麻辣烫 肯德基 麦当劳 鲈鱼 烤鱼 伊川寿司 东北水饺 凉皮 必胜客 沙县小吃 小杨生煎 吉火冷面石锅拌饭 刘一手火锅");
   list = localStorage.getItem("list");
   $("#list").text(list);
 
